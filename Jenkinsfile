@@ -10,6 +10,7 @@ pipeline {
       steps {
         sshagent(['ssh-remote']) {
           sh 'ssh -o StrictHostKeyChecking=no -l ubuntu 18.138.34.38'
+          sh 'whoami'
         }
       }
     }
