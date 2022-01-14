@@ -1,3 +1,10 @@
-const app = document.querySelector<HTMLDivElement>('#app')!
+import './assets/css/style.css';
+import { World } from './World/World';
 
-app.innerHTML = `<h1>Hello Guild Mgpcdomj!</h1>`
+(function main() {
+    const container = document.querySelector('#app')!;
+
+    const world = new World(container);
+
+    world.start();
+})();
