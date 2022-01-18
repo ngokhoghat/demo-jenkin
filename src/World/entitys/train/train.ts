@@ -27,5 +27,7 @@ export class Train extends Group {
         this.meshes.smallWheelRear.rotation.y += wheelSpeed * delta;
         this.meshes.smallWheelCenter.rotation.y += wheelSpeed * delta;
         this.meshes.smallWheelFront.rotation.y += wheelSpeed * delta;
+
+        this.position.x -= 0.01;
     }
 }

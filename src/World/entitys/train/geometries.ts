@@ -1,9 +1,9 @@
-import { BoxBufferGeometry, CylinderBufferGeometry } from 'three';
+import { BoxBufferGeometry, CircleGeometry, CylinderBufferGeometry, CylinderGeometry } from 'three';
 
 function createGeometries() {
     const cabin = new BoxBufferGeometry(2, 2.25, 1.5);
     const nose = new CylinderBufferGeometry(0.75, 0.75, 3, 12);
-    const wheel = new CylinderBufferGeometry(0.4, 0.4, 1.75, 16);
+    const wheel = new CylinderGeometry(0.4, 0.4, 1.75, 100, 100, false, 100, 200);
     const chimney = new CylinderBufferGeometry(0.3, 0.1, 0.5);
 
     return {

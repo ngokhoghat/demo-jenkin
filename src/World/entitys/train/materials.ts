@@ -7,7 +7,7 @@ function createMaterials() {
     });
 
     const detail = new MeshStandardMaterial({
-        color: 'darkslategray',
+        color: '#0c91ff',
         flatShading: true,
     });
 

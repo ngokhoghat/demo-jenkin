@@ -1,0 +1,11 @@
+Model Information:
+* title:	Chola (brawl stars model)
+* source:	https://sketchfab.com/3d-models/chola-brawl-stars-model-819aa2cbcf924999ba87fa9f4deba14b
+* author:	IvanSCP (https://sketchfab.com/komarovivanigorevic11)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Chola (brawl stars model)" (https://sketchfab.com/3d-models/chola-brawl-stars-model-819aa2cbcf924999ba87fa9f4deba14b) by IvanSCP (https://sketchfab.com/komarovivanigorevic11) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
