@@ -13,9 +13,6 @@ export class MainCharacter extends Group {
 
         this.add(
             this.meshes.head,
-            this.meshes.leftEye,
-            this.meshes.rightEye,
-            this.meshes.mout,
             this.meshes.body,
             this.meshes.leftHand,
             this.meshes.rightHand,
@@ -66,21 +63,20 @@ export class MainCharacter extends Group {
     }
 
     onWalk(delta: number) {
-        this.meshes.leftHand.rotation.x += this.v * delta;
-        this.meshes.rightHand.rotation.x += -this.v * delta;
+        // this.meshes.leftHand.rotation.x += this.v * delta;
+        // this.meshes.rightHand.rotation.x += -this.v * delta;
 
-        this.meshes.leftFoot.rotation.x += -this.v * delta;
-        this.meshes.rightFoot.rotation.x += this.v * delta;
+        // this.meshes.leftFoot.rotation.x += -this.v * delta;
+        // this.meshes.rightFoot.rotation.x += this.v * delta;
 
-        if (this.meshes.leftHand.rotation.x < -Math.PI / 3) {
-            this.v = 1
-        } else if (this.meshes.leftHand.rotation.x > Math.PI / 3) {
-            this.v = -1
-        }
+        // if (this.meshes.leftHand.rotation.x < -Math.PI / 3) {
+        //     this.v = 1
+        // } else if (this.meshes.leftHand.rotation.x > Math.PI / 3) {
+        //     this.v = -1
+        // }
     }
 
     tick(delta: number) {
-        this.onWalk(delta);
-        this.position.z += 1 * delta;
+        // this.onWalk(delta);
     }
 }

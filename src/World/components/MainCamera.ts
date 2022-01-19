@@ -8,7 +8,8 @@ export class MainCamera extends Group {
     createCamera() {
         const camera = new PerspectiveCamera(50, 1, 1, 10000);
 
-        camera.position.set(10, 5, 10);
+        camera.position.set(0, 5, 10);
+        camera.name = "main-camera";
 
         return camera;
     }

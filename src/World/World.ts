@@ -43,6 +43,9 @@ export class World {
         this.scene.add(mainCharacter);
 
         resizer.onResize = () => this.render();
+
+        console.log(this.scene);
+        
     }
 
     render() {
